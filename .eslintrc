@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "no-undef": 2,
+    "no-unused-vars": 2,
+    "import/no-unresolved": 2,
+    "import/named": 2,
+    "import/default": 2,
+    "import/namespace": 2
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": { 
+      "modules": true,
+      "experimentalObjectRestSpread": true,
+      "forOf": true
+    }
+  },
+  "plugins": [ "import" ]
+}
